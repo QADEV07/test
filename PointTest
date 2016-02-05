@@ -1,0 +1,46 @@
+package geometry;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class pointTest {
+
+	@Test
+	public void pointCanBecreatewithnoparamethers() {
+		Point newPoint = new Point();
+		assertNotNull(newPoint);
+	}
+
+	@Test
+	public void pointCanBeCreatedWithXandYintegerParamethers() {
+		Point anotherPoint = new Point(10,5);
+		assertTrue(anotherPoint instanceof Point);
+		
+	}
+	
+	@Test
+	public void pointCreathedWithNoParamsHasZeroXandYcoordinates()
+	{
+		Point point = new Point();
+		assertEquals(0,point.getX());
+		assertEquals(0,point.getY());	 
+	}
+	
+	@Test
+	public void pointCanBeCreatedWithXandYintegerParameters()
+	{
+		Point anotherPoint = new Point(10,5);
+		assertTrue(anotherPoint instanceof Point);		
+	}
+	
+	@Test
+	public void distanceToTheSamePointIsZero()
+	{		
+		Point firstPoint = new Point(2,3);
+		Point secondPoint = new Point(2,3);
+		
+		assertEquals(0,firstPoint.distanceTo(secondPoint),0);	
+		
+	}
+	
