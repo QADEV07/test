@@ -18,10 +18,7 @@
 	@Test
 	public void distanceToTheSamePointIsZero()
 	{		
-		Point firstPoint = new Point(2,3);
-		Point secondPoint = new Point(2,3);
-		
-		assertEquals(0,firstPoint.distanceTo(secondPoint),0);	
+		eliminado por daniel	
 		
 	}
 	//esta es otra modificacion.
