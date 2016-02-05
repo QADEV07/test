@@ -3,7 +3,7 @@ package geometry;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
+// esta funcion no corre, cambiar de parametros.
 public class pointTest {
 
 	@Test
