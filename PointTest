@@ -27,7 +27,7 @@ public class pointTest {
 		assertEquals(0,point.getY());	 
 	}
 	
-	@Test
+	@Test ----> AHORA SOY MODIFICADOR
 	public void pointCanBeCreatedWithXandYintegerParameters()
 	{
 		Point anotherPoint = new Point(10,5);
