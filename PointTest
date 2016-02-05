@@ -1,23 +1,4 @@
-package geometry;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-// esta funcion no corre, cambiar de parametros.
-public class pointTest {
-
-	@Test
-	public void pointCanBecreatewithnoparamethers() {
-		Point newPoint = new Point();
-		assertNotNull(newPoint);
-	}
-
-	@Test
-	public void pointCanBeCreatedWithXandYintegerParamethers() {
-		Point anotherPoint = new Point(10,5);
-		assertTrue(anotherPoint instanceof Point);
-		
-	}
 	
 	@Test
 	public void pointCreathedWithNoParamsHasZeroXandYcoordinates()
